@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-
+# these are constant values
 SEG_POSSIOTION = [(0,0),(-20,0),(-40,0)]
 MOVE_DISTANCE = 20
 UP = 90
@@ -22,6 +22,19 @@ class Snake:
             seg.penup()
             seg.goto(position)
             self.seg_list.append(seg)
+
+    # this function will create a new snake after eating the food
+    def create_new_snake_at_end(self):
+            new_snake = Turtle(shape="square")
+            new_snake.color("White")
+            new_snake.penup()
+            position = None
+
+            new_snake_x = self.seg_list[len(self.seg_list)-1].xcor()
+            new_snake_y = self.seg_list[len(self.seg_list)-1].ycor()
+
+            new_snake.goto(new_snake_x,new_snake_y)
+            self.seg_list.append(new_snake)
 
     # this function will move the snake
     def move(self):
