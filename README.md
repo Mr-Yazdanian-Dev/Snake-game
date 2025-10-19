@@ -6,14 +6,13 @@
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Screensrecording](#screensrecording)
 - [License](#license)
 # Overview
-
-# Screenshots
-
-
-
+🐍 This project is a simple implementation of the classic Snake Game, developed using Object-Oriented Programming (OOP) principles in Python. The game leverages the Turtle graphics library to create the visual interface and handle player movement.
+Players control a snake that moves around the screen, aiming to eat food and grow longer while avoiding collisions with the walls or itself. The project demonstrates core OOP concepts such as classes, inheritance, encapsulation, and modular design, making the code organized, reusable, and easy to maintain.
+# Screensrecording
+https://github.com/user-attachments/assets/8390a291-4002-4c3f-808c-66799af33e19
 # Features
 List the main features of your project:
 - Using oop 
@@ -26,7 +25,7 @@ List the programming languages, frameworks, libraries, or tools used:
 - Other tools: -
 # Installation
 Clone the repository using shell or bash 
-- git clone https://github.com/username/project-name.git
+- git clone https://github.com/Mr-Yazdanian-Dev/Snake-game.git
   
 Navigate into the project directory
 - cd project-name
